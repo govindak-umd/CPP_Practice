@@ -4,4 +4,4 @@ project(untitled)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(pointer pointers_smart_pointer_unique_pointer.cpp)
-add_executable(linked_list linked_list.cpp)
+add_executable(binary_search binary_search.cpp)

@@ -114,6 +114,12 @@ void insertNodeEnd(int val, Node *test_node) {
     new_node->next = NULL;
 }
 
+/**
+ * Func to add val in between two values
+ * @param val
+ * @param test_node
+ * @return
+ */
 Node* insertNodeMiddle(int val, Node *test_node){
     Node* new_node= NULL;
     new_node = new Node();
