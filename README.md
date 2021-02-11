@@ -1,3 +1,3 @@
 # CPP-Practice
 
-This repository is for practicing my C++ skills.
+This repository contains random practice c++ codes.
