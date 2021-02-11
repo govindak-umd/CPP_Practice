@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/binary_search.dir/binary_search.cpp.o CMakeFiles/binary_search.dir/selection_sort.cpp.o  -o binary_search 
