@@ -3,5 +3,5 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(pointer pointers_smart_pointer_unique_pointer.cpp)
-add_executable(binary_search binary_search.cpp)
+#add_executable(pass_by_reference pass_by_reference.cpp)
+add_executable(selection_sort selection_sort.cpp)
