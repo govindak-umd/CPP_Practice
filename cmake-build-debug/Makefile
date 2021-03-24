@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named struct_practice
+# Target rules for targets named conditional_ternary_operator
 
 # Build rule for target.
-struct_practice: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 struct_practice
-.PHONY : struct_practice
+conditional_ternary_operator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 conditional_ternary_operator
+.PHONY : conditional_ternary_operator
 
 # fast build rule for target.
-struct_practice/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\struct_practice.dir\build.make CMakeFiles/struct_practice.dir/build
-.PHONY : struct_practice/fast
+conditional_ternary_operator/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\conditional_ternary_operator.dir\build.make CMakeFiles/conditional_ternary_operator.dir/build
+.PHONY : conditional_ternary_operator/fast
 
-struct_practice.obj: struct_practice.cpp.obj
+conditional_ternary_operator.obj: conditional_ternary_operator.cpp.obj
 
-.PHONY : struct_practice.obj
+.PHONY : conditional_ternary_operator.obj
 
 # target to build an object file
-struct_practice.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\struct_practice.dir\build.make CMakeFiles/struct_practice.dir/struct_practice.cpp.obj
-.PHONY : struct_practice.cpp.obj
+conditional_ternary_operator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\conditional_ternary_operator.dir\build.make CMakeFiles/conditional_ternary_operator.dir/conditional_ternary_operator.cpp.obj
+.PHONY : conditional_ternary_operator.cpp.obj
 
-struct_practice.i: struct_practice.cpp.i
+conditional_ternary_operator.i: conditional_ternary_operator.cpp.i
 
-.PHONY : struct_practice.i
+.PHONY : conditional_ternary_operator.i
 
 # target to preprocess a source file
-struct_practice.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\struct_practice.dir\build.make CMakeFiles/struct_practice.dir/struct_practice.cpp.i
-.PHONY : struct_practice.cpp.i
+conditional_ternary_operator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\conditional_ternary_operator.dir\build.make CMakeFiles/conditional_ternary_operator.dir/conditional_ternary_operator.cpp.i
+.PHONY : conditional_ternary_operator.cpp.i
 
-struct_practice.s: struct_practice.cpp.s
+conditional_ternary_operator.s: conditional_ternary_operator.cpp.s
 
-.PHONY : struct_practice.s
+.PHONY : conditional_ternary_operator.s
 
 # target to generate assembly for a file
-struct_practice.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\struct_practice.dir\build.make CMakeFiles/struct_practice.dir/struct_practice.cpp.s
-.PHONY : struct_practice.cpp.s
+conditional_ternary_operator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\conditional_ternary_operator.dir\build.make CMakeFiles/conditional_ternary_operator.dir/conditional_ternary_operator.cpp.s
+.PHONY : conditional_ternary_operator.cpp.s
 
 # Help Target
 help:
@@ -177,10 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... struct_practice
-	@echo ... struct_practice.obj
-	@echo ... struct_practice.i
-	@echo ... struct_practice.s
+	@echo ... conditional_ternary_operator
+	@echo ... conditional_ternary_operator.obj
+	@echo ... conditional_ternary_operator.i
+	@echo ... conditional_ternary_operator.s
 .PHONY : help
 
 

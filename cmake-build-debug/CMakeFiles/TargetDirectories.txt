@@ -1,3 +1,3 @@
 C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug/CMakeFiles/struct_practice.dir
+C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug/CMakeFiles/conditional_ternary_operator.dir
 C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(struct_practice struct_practice.cpp)
+add_executable(conditional_ternary_operator conditional_ternary_operator.cpp)
