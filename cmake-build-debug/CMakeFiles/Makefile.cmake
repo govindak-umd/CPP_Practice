@@ -53,5 +53,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/practice_goto.dir/DependInfo.cmake"
+  "CMakeFiles/practice_pass.dir/DependInfo.cmake"
   )

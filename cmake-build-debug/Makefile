@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named practice_goto
+# Target rules for targets named practice_pass
 
 # Build rule for target.
-practice_goto: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practice_goto
-.PHONY : practice_goto
+practice_pass: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practice_pass
+.PHONY : practice_pass
 
 # fast build rule for target.
-practice_goto/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice_goto.dir\build.make CMakeFiles/practice_goto.dir/build
-.PHONY : practice_goto/fast
+practice_pass/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice_pass.dir\build.make CMakeFiles/practice_pass.dir/build
+.PHONY : practice_pass/fast
 
-PRACTICE_goto.obj: PRACTICE_goto.cpp.obj
+PRACTICE_passing_by_reference.obj: PRACTICE_passing_by_reference.cpp.obj
 
-.PHONY : PRACTICE_goto.obj
+.PHONY : PRACTICE_passing_by_reference.obj
 
 # target to build an object file
-PRACTICE_goto.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice_goto.dir\build.make CMakeFiles/practice_goto.dir/PRACTICE_goto.cpp.obj
-.PHONY : PRACTICE_goto.cpp.obj
+PRACTICE_passing_by_reference.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice_pass.dir\build.make CMakeFiles/practice_pass.dir/PRACTICE_passing_by_reference.cpp.obj
+.PHONY : PRACTICE_passing_by_reference.cpp.obj
 
-PRACTICE_goto.i: PRACTICE_goto.cpp.i
+PRACTICE_passing_by_reference.i: PRACTICE_passing_by_reference.cpp.i
 
-.PHONY : PRACTICE_goto.i
+.PHONY : PRACTICE_passing_by_reference.i
 
 # target to preprocess a source file
-PRACTICE_goto.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice_goto.dir\build.make CMakeFiles/practice_goto.dir/PRACTICE_goto.cpp.i
-.PHONY : PRACTICE_goto.cpp.i
+PRACTICE_passing_by_reference.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice_pass.dir\build.make CMakeFiles/practice_pass.dir/PRACTICE_passing_by_reference.cpp.i
+.PHONY : PRACTICE_passing_by_reference.cpp.i
 
-PRACTICE_goto.s: PRACTICE_goto.cpp.s
+PRACTICE_passing_by_reference.s: PRACTICE_passing_by_reference.cpp.s
 
-.PHONY : PRACTICE_goto.s
+.PHONY : PRACTICE_passing_by_reference.s
 
 # target to generate assembly for a file
-PRACTICE_goto.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice_goto.dir\build.make CMakeFiles/practice_goto.dir/PRACTICE_goto.cpp.s
-.PHONY : PRACTICE_goto.cpp.s
+PRACTICE_passing_by_reference.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice_pass.dir\build.make CMakeFiles/practice_pass.dir/PRACTICE_passing_by_reference.cpp.s
+.PHONY : PRACTICE_passing_by_reference.cpp.s
 
 # Help Target
 help:
@@ -177,10 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... practice_goto
-	@echo ... PRACTICE_goto.obj
-	@echo ... PRACTICE_goto.i
-	@echo ... PRACTICE_goto.s
+	@echo ... practice_pass
+	@echo ... PRACTICE_passing_by_reference.obj
+	@echo ... PRACTICE_passing_by_reference.i
+	@echo ... PRACTICE_passing_by_reference.s
 .PHONY : help
 
 

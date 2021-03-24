@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(practice_goto PRACTICE_goto.cpp)
+add_executable(practice_pass PRACTICE_passing_by_reference.cpp)
