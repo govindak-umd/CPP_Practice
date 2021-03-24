@@ -36,9 +36,7 @@ int main(){
     cout << "pointer_n4 : " << pointer_n4 << endl;
     cout << "*pointer_n4 : " << *pointer_n4 << endl;
 
-    const long int *pointer_n5 = & n_int_long;
-
-    *pointer_n5++;
+    const long int *pointer_n5 = &n_int_long;
 
     cout << "n_int_long : " << n_int_long << endl;
     cout << "pointer_n5 : " << pointer_n5 << endl;
