@@ -19,6 +19,7 @@ Some examples here are:
 - GoTo
 - Passing by reference to a function
 - Template
+- Namespace
 
 ## Some good references:
 

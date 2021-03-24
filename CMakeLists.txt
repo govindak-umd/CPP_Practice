@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(PRACTICE_template PRACTICE_template.cpp)
+add_executable(PRACTICE_namespace PRACTICE_namespace.cpp)

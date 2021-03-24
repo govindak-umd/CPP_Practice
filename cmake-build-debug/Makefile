@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named PRACTICE_template
+# Target rules for targets named PRACTICE_namespace
 
 # Build rule for target.
-PRACTICE_template: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PRACTICE_template
-.PHONY : PRACTICE_template
+PRACTICE_namespace: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PRACTICE_namespace
+.PHONY : PRACTICE_namespace
 
 # fast build rule for target.
-PRACTICE_template/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_template.dir\build.make CMakeFiles/PRACTICE_template.dir/build
-.PHONY : PRACTICE_template/fast
+PRACTICE_namespace/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_namespace.dir\build.make CMakeFiles/PRACTICE_namespace.dir/build
+.PHONY : PRACTICE_namespace/fast
 
-PRACTICE_template.obj: PRACTICE_template.cpp.obj
+PRACTICE_namespace.obj: PRACTICE_namespace.cpp.obj
 
-.PHONY : PRACTICE_template.obj
+.PHONY : PRACTICE_namespace.obj
 
 # target to build an object file
-PRACTICE_template.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_template.dir\build.make CMakeFiles/PRACTICE_template.dir/PRACTICE_template.cpp.obj
-.PHONY : PRACTICE_template.cpp.obj
+PRACTICE_namespace.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_namespace.dir\build.make CMakeFiles/PRACTICE_namespace.dir/PRACTICE_namespace.cpp.obj
+.PHONY : PRACTICE_namespace.cpp.obj
 
-PRACTICE_template.i: PRACTICE_template.cpp.i
+PRACTICE_namespace.i: PRACTICE_namespace.cpp.i
 
-.PHONY : PRACTICE_template.i
+.PHONY : PRACTICE_namespace.i
 
 # target to preprocess a source file
-PRACTICE_template.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_template.dir\build.make CMakeFiles/PRACTICE_template.dir/PRACTICE_template.cpp.i
-.PHONY : PRACTICE_template.cpp.i
+PRACTICE_namespace.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_namespace.dir\build.make CMakeFiles/PRACTICE_namespace.dir/PRACTICE_namespace.cpp.i
+.PHONY : PRACTICE_namespace.cpp.i
 
-PRACTICE_template.s: PRACTICE_template.cpp.s
+PRACTICE_namespace.s: PRACTICE_namespace.cpp.s
 
-.PHONY : PRACTICE_template.s
+.PHONY : PRACTICE_namespace.s
 
 # target to generate assembly for a file
-PRACTICE_template.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_template.dir\build.make CMakeFiles/PRACTICE_template.dir/PRACTICE_template.cpp.s
-.PHONY : PRACTICE_template.cpp.s
+PRACTICE_namespace.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_namespace.dir\build.make CMakeFiles/PRACTICE_namespace.dir/PRACTICE_namespace.cpp.s
+.PHONY : PRACTICE_namespace.cpp.s
 
 # Help Target
 help:
@@ -177,10 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... PRACTICE_template
-	@echo ... PRACTICE_template.obj
-	@echo ... PRACTICE_template.i
-	@echo ... PRACTICE_template.s
+	@echo ... PRACTICE_namespace
+	@echo ... PRACTICE_namespace.obj
+	@echo ... PRACTICE_namespace.i
+	@echo ... PRACTICE_namespace.s
 .PHONY : help
 
 
