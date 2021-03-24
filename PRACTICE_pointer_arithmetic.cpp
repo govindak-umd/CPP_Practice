@@ -42,5 +42,7 @@ int main(){
     cout << "pointer_n5 : " << pointer_n5 << endl;
     cout << "*pointer_n5 : " << *pointer_n5 << endl;
 
+
+
     return 1;
 }

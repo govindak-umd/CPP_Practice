@@ -72,7 +72,7 @@ CMAKE_BINARY_DIR = C:\Users\govin\Desktop\CPP_Practice\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/PRACTICE_pointer_arithmetic.dir/all
+all: CMakeFiles/PRACTICE_pointers_to_structs.dir/all
 
 .PHONY : all
 
@@ -82,36 +82,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/PRACTICE_pointer_arithmetic.dir/clean
+clean: CMakeFiles/PRACTICE_pointers_to_structs.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/PRACTICE_pointer_arithmetic.dir
+# Target rules for target CMakeFiles/PRACTICE_pointers_to_structs.dir
 
 # All Build rule for target.
-CMakeFiles/PRACTICE_pointer_arithmetic.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_pointer_arithmetic.dir\build.make CMakeFiles/PRACTICE_pointer_arithmetic.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_pointer_arithmetic.dir\build.make CMakeFiles/PRACTICE_pointer_arithmetic.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\govin\Desktop\CPP_Practice\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target PRACTICE_pointer_arithmetic"
-.PHONY : CMakeFiles/PRACTICE_pointer_arithmetic.dir/all
+CMakeFiles/PRACTICE_pointers_to_structs.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_pointers_to_structs.dir\build.make CMakeFiles/PRACTICE_pointers_to_structs.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_pointers_to_structs.dir\build.make CMakeFiles/PRACTICE_pointers_to_structs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\govin\Desktop\CPP_Practice\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target PRACTICE_pointers_to_structs"
+.PHONY : CMakeFiles/PRACTICE_pointers_to_structs.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/PRACTICE_pointer_arithmetic.dir/rule: cmake_check_build_system
+CMakeFiles/PRACTICE_pointers_to_structs.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\govin\Desktop\CPP_Practice\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/PRACTICE_pointer_arithmetic.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/PRACTICE_pointers_to_structs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\govin\Desktop\CPP_Practice\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/PRACTICE_pointer_arithmetic.dir/rule
+.PHONY : CMakeFiles/PRACTICE_pointers_to_structs.dir/rule
 
 # Convenience name for target.
-PRACTICE_pointer_arithmetic: CMakeFiles/PRACTICE_pointer_arithmetic.dir/rule
+PRACTICE_pointers_to_structs: CMakeFiles/PRACTICE_pointers_to_structs.dir/rule
 
-.PHONY : PRACTICE_pointer_arithmetic
+.PHONY : PRACTICE_pointers_to_structs
 
 # clean rule for target.
-CMakeFiles/PRACTICE_pointer_arithmetic.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_pointer_arithmetic.dir\build.make CMakeFiles/PRACTICE_pointer_arithmetic.dir/clean
-.PHONY : CMakeFiles/PRACTICE_pointer_arithmetic.dir/clean
+CMakeFiles/PRACTICE_pointers_to_structs.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_pointers_to_structs.dir\build.make CMakeFiles/PRACTICE_pointers_to_structs.dir/clean
+.PHONY : CMakeFiles/PRACTICE_pointers_to_structs.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named PRACTICE_pointer_arithmetic
+# Target rules for targets named PRACTICE_pointers_to_structs
 
 # Build rule for target.
-PRACTICE_pointer_arithmetic: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PRACTICE_pointer_arithmetic
-.PHONY : PRACTICE_pointer_arithmetic
+PRACTICE_pointers_to_structs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PRACTICE_pointers_to_structs
+.PHONY : PRACTICE_pointers_to_structs
 
 # fast build rule for target.
-PRACTICE_pointer_arithmetic/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_pointer_arithmetic.dir\build.make CMakeFiles/PRACTICE_pointer_arithmetic.dir/build
-.PHONY : PRACTICE_pointer_arithmetic/fast
+PRACTICE_pointers_to_structs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_pointers_to_structs.dir\build.make CMakeFiles/PRACTICE_pointers_to_structs.dir/build
+.PHONY : PRACTICE_pointers_to_structs/fast
 
-PRACTICE_pointer_arithmetic.obj: PRACTICE_pointer_arithmetic.cpp.obj
+PRACTICE_pointers_to_structs.obj: PRACTICE_pointers_to_structs.cpp.obj
 
-.PHONY : PRACTICE_pointer_arithmetic.obj
+.PHONY : PRACTICE_pointers_to_structs.obj
 
 # target to build an object file
-PRACTICE_pointer_arithmetic.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_pointer_arithmetic.dir\build.make CMakeFiles/PRACTICE_pointer_arithmetic.dir/PRACTICE_pointer_arithmetic.cpp.obj
-.PHONY : PRACTICE_pointer_arithmetic.cpp.obj
+PRACTICE_pointers_to_structs.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_pointers_to_structs.dir\build.make CMakeFiles/PRACTICE_pointers_to_structs.dir/PRACTICE_pointers_to_structs.cpp.obj
+.PHONY : PRACTICE_pointers_to_structs.cpp.obj
 
-PRACTICE_pointer_arithmetic.i: PRACTICE_pointer_arithmetic.cpp.i
+PRACTICE_pointers_to_structs.i: PRACTICE_pointers_to_structs.cpp.i
 
-.PHONY : PRACTICE_pointer_arithmetic.i
+.PHONY : PRACTICE_pointers_to_structs.i
 
 # target to preprocess a source file
-PRACTICE_pointer_arithmetic.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_pointer_arithmetic.dir\build.make CMakeFiles/PRACTICE_pointer_arithmetic.dir/PRACTICE_pointer_arithmetic.cpp.i
-.PHONY : PRACTICE_pointer_arithmetic.cpp.i
+PRACTICE_pointers_to_structs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_pointers_to_structs.dir\build.make CMakeFiles/PRACTICE_pointers_to_structs.dir/PRACTICE_pointers_to_structs.cpp.i
+.PHONY : PRACTICE_pointers_to_structs.cpp.i
 
-PRACTICE_pointer_arithmetic.s: PRACTICE_pointer_arithmetic.cpp.s
+PRACTICE_pointers_to_structs.s: PRACTICE_pointers_to_structs.cpp.s
 
-.PHONY : PRACTICE_pointer_arithmetic.s
+.PHONY : PRACTICE_pointers_to_structs.s
 
 # target to generate assembly for a file
-PRACTICE_pointer_arithmetic.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_pointer_arithmetic.dir\build.make CMakeFiles/PRACTICE_pointer_arithmetic.dir/PRACTICE_pointer_arithmetic.cpp.s
-.PHONY : PRACTICE_pointer_arithmetic.cpp.s
+PRACTICE_pointers_to_structs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_pointers_to_structs.dir\build.make CMakeFiles/PRACTICE_pointers_to_structs.dir/PRACTICE_pointers_to_structs.cpp.s
+.PHONY : PRACTICE_pointers_to_structs.cpp.s
 
 # Help Target
 help:
@@ -177,10 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... PRACTICE_pointer_arithmetic
-	@echo ... PRACTICE_pointer_arithmetic.obj
-	@echo ... PRACTICE_pointer_arithmetic.i
-	@echo ... PRACTICE_pointer_arithmetic.s
+	@echo ... PRACTICE_pointers_to_structs
+	@echo ... PRACTICE_pointers_to_structs.obj
+	@echo ... PRACTICE_pointers_to_structs.i
+	@echo ... PRACTICE_pointers_to_structs.s
 .PHONY : help
 
 
