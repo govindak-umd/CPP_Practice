@@ -4,7 +4,7 @@ This repository contains random practice C++ codes.
 
 Some examples here are:
 
-## Search algorithms practice
+## Search algorithms Practice
 
 - Linear Search
 - Binary Search
@@ -20,6 +20,7 @@ Some examples here are:
 - Passing by reference to a function
 - Template
 - Namespace
+- Pointer Arithmetic
 
 ## Some good references:
 

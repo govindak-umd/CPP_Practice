@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named PRACTICE_namespace
+# Target rules for targets named PRACTICE_pointer_arithmetic
 
 # Build rule for target.
-PRACTICE_namespace: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PRACTICE_namespace
-.PHONY : PRACTICE_namespace
+PRACTICE_pointer_arithmetic: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PRACTICE_pointer_arithmetic
+.PHONY : PRACTICE_pointer_arithmetic
 
 # fast build rule for target.
-PRACTICE_namespace/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_namespace.dir\build.make CMakeFiles/PRACTICE_namespace.dir/build
-.PHONY : PRACTICE_namespace/fast
+PRACTICE_pointer_arithmetic/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_pointer_arithmetic.dir\build.make CMakeFiles/PRACTICE_pointer_arithmetic.dir/build
+.PHONY : PRACTICE_pointer_arithmetic/fast
 
-PRACTICE_namespace.obj: PRACTICE_namespace.cpp.obj
+PRACTICE_pointer_arithmetic.obj: PRACTICE_pointer_arithmetic.cpp.obj
 
-.PHONY : PRACTICE_namespace.obj
+.PHONY : PRACTICE_pointer_arithmetic.obj
 
 # target to build an object file
-PRACTICE_namespace.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_namespace.dir\build.make CMakeFiles/PRACTICE_namespace.dir/PRACTICE_namespace.cpp.obj
-.PHONY : PRACTICE_namespace.cpp.obj
+PRACTICE_pointer_arithmetic.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_pointer_arithmetic.dir\build.make CMakeFiles/PRACTICE_pointer_arithmetic.dir/PRACTICE_pointer_arithmetic.cpp.obj
+.PHONY : PRACTICE_pointer_arithmetic.cpp.obj
 
-PRACTICE_namespace.i: PRACTICE_namespace.cpp.i
+PRACTICE_pointer_arithmetic.i: PRACTICE_pointer_arithmetic.cpp.i
 
-.PHONY : PRACTICE_namespace.i
+.PHONY : PRACTICE_pointer_arithmetic.i
 
 # target to preprocess a source file
-PRACTICE_namespace.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_namespace.dir\build.make CMakeFiles/PRACTICE_namespace.dir/PRACTICE_namespace.cpp.i
-.PHONY : PRACTICE_namespace.cpp.i
+PRACTICE_pointer_arithmetic.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_pointer_arithmetic.dir\build.make CMakeFiles/PRACTICE_pointer_arithmetic.dir/PRACTICE_pointer_arithmetic.cpp.i
+.PHONY : PRACTICE_pointer_arithmetic.cpp.i
 
-PRACTICE_namespace.s: PRACTICE_namespace.cpp.s
+PRACTICE_pointer_arithmetic.s: PRACTICE_pointer_arithmetic.cpp.s
 
-.PHONY : PRACTICE_namespace.s
+.PHONY : PRACTICE_pointer_arithmetic.s
 
 # target to generate assembly for a file
-PRACTICE_namespace.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_namespace.dir\build.make CMakeFiles/PRACTICE_namespace.dir/PRACTICE_namespace.cpp.s
-.PHONY : PRACTICE_namespace.cpp.s
+PRACTICE_pointer_arithmetic.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_pointer_arithmetic.dir\build.make CMakeFiles/PRACTICE_pointer_arithmetic.dir/PRACTICE_pointer_arithmetic.cpp.s
+.PHONY : PRACTICE_pointer_arithmetic.cpp.s
 
 # Help Target
 help:
@@ -177,10 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... PRACTICE_namespace
-	@echo ... PRACTICE_namespace.obj
-	@echo ... PRACTICE_namespace.i
-	@echo ... PRACTICE_namespace.s
+	@echo ... PRACTICE_pointer_arithmetic
+	@echo ... PRACTICE_pointer_arithmetic.obj
+	@echo ... PRACTICE_pointer_arithmetic.i
+	@echo ... PRACTICE_pointer_arithmetic.s
 .PHONY : help
 
 

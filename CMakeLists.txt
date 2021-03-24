@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(PRACTICE_namespace PRACTICE_namespace.cpp)
+add_executable(PRACTICE_pointer_arithmetic PRACTICE_pointer_arithmetic.cpp)
