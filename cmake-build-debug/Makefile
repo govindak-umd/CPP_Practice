@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named PRACTICE_pointers_to_structs
+# Target rules for targets named PRACTICE_enum
 
 # Build rule for target.
-PRACTICE_pointers_to_structs: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PRACTICE_pointers_to_structs
-.PHONY : PRACTICE_pointers_to_structs
+PRACTICE_enum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PRACTICE_enum
+.PHONY : PRACTICE_enum
 
 # fast build rule for target.
-PRACTICE_pointers_to_structs/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_pointers_to_structs.dir\build.make CMakeFiles/PRACTICE_pointers_to_structs.dir/build
-.PHONY : PRACTICE_pointers_to_structs/fast
+PRACTICE_enum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_enum.dir\build.make CMakeFiles/PRACTICE_enum.dir/build
+.PHONY : PRACTICE_enum/fast
 
-PRACTICE_pointers_to_structs.obj: PRACTICE_pointers_to_structs.cpp.obj
+PRACTICE_enum.obj: PRACTICE_enum.cpp.obj
 
-.PHONY : PRACTICE_pointers_to_structs.obj
+.PHONY : PRACTICE_enum.obj
 
 # target to build an object file
-PRACTICE_pointers_to_structs.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_pointers_to_structs.dir\build.make CMakeFiles/PRACTICE_pointers_to_structs.dir/PRACTICE_pointers_to_structs.cpp.obj
-.PHONY : PRACTICE_pointers_to_structs.cpp.obj
+PRACTICE_enum.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_enum.dir\build.make CMakeFiles/PRACTICE_enum.dir/PRACTICE_enum.cpp.obj
+.PHONY : PRACTICE_enum.cpp.obj
 
-PRACTICE_pointers_to_structs.i: PRACTICE_pointers_to_structs.cpp.i
+PRACTICE_enum.i: PRACTICE_enum.cpp.i
 
-.PHONY : PRACTICE_pointers_to_structs.i
+.PHONY : PRACTICE_enum.i
 
 # target to preprocess a source file
-PRACTICE_pointers_to_structs.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_pointers_to_structs.dir\build.make CMakeFiles/PRACTICE_pointers_to_structs.dir/PRACTICE_pointers_to_structs.cpp.i
-.PHONY : PRACTICE_pointers_to_structs.cpp.i
+PRACTICE_enum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_enum.dir\build.make CMakeFiles/PRACTICE_enum.dir/PRACTICE_enum.cpp.i
+.PHONY : PRACTICE_enum.cpp.i
 
-PRACTICE_pointers_to_structs.s: PRACTICE_pointers_to_structs.cpp.s
+PRACTICE_enum.s: PRACTICE_enum.cpp.s
 
-.PHONY : PRACTICE_pointers_to_structs.s
+.PHONY : PRACTICE_enum.s
 
 # target to generate assembly for a file
-PRACTICE_pointers_to_structs.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_pointers_to_structs.dir\build.make CMakeFiles/PRACTICE_pointers_to_structs.dir/PRACTICE_pointers_to_structs.cpp.s
-.PHONY : PRACTICE_pointers_to_structs.cpp.s
+PRACTICE_enum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_enum.dir\build.make CMakeFiles/PRACTICE_enum.dir/PRACTICE_enum.cpp.s
+.PHONY : PRACTICE_enum.cpp.s
 
 # Help Target
 help:
@@ -177,10 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... PRACTICE_pointers_to_structs
-	@echo ... PRACTICE_pointers_to_structs.obj
-	@echo ... PRACTICE_pointers_to_structs.i
-	@echo ... PRACTICE_pointers_to_structs.s
+	@echo ... PRACTICE_enum
+	@echo ... PRACTICE_enum.obj
+	@echo ... PRACTICE_enum.i
+	@echo ... PRACTICE_enum.s
 .PHONY : help
 
 

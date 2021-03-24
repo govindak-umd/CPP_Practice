@@ -21,6 +21,8 @@ Some examples here are:
 - Template
 - Namespace
 - Pointer Arithmetic
+- Pointer to Structs
+- Enum
 
 ## Some good references:
 

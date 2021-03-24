@@ -53,5 +53,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/PRACTICE_pointers_to_structs.dir/DependInfo.cmake"
+  "CMakeFiles/PRACTICE_enum.dir/DependInfo.cmake"
   )
