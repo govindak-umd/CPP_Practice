@@ -76,27 +76,27 @@ include CMakeFiles/conditional_ternary_operator.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/conditional_ternary_operator.dir/flags.make
 
-CMakeFiles/conditional_ternary_operator.dir/conditional_ternary_operator.cpp.obj: CMakeFiles/conditional_ternary_operator.dir/flags.make
-CMakeFiles/conditional_ternary_operator.dir/conditional_ternary_operator.cpp.obj: ../conditional_ternary_operator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\govin\Desktop\CPP_Practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/conditional_ternary_operator.dir/conditional_ternary_operator.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\conditional_ternary_operator.dir\conditional_ternary_operator.cpp.obj -c C:\Users\govin\Desktop\CPP_Practice\conditional_ternary_operator.cpp
+CMakeFiles/conditional_ternary_operator.dir/PRACTICE_conditional_ternary_operator.cpp.obj: CMakeFiles/conditional_ternary_operator.dir/flags.make
+CMakeFiles/conditional_ternary_operator.dir/PRACTICE_conditional_ternary_operator.cpp.obj: ../PRACTICE_conditional_ternary_operator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\govin\Desktop\CPP_Practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/conditional_ternary_operator.dir/PRACTICE_conditional_ternary_operator.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\conditional_ternary_operator.dir\PRACTICE_conditional_ternary_operator.cpp.obj -c C:\Users\govin\Desktop\CPP_Practice\PRACTICE_conditional_ternary_operator.cpp
 
-CMakeFiles/conditional_ternary_operator.dir/conditional_ternary_operator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/conditional_ternary_operator.dir/conditional_ternary_operator.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\govin\Desktop\CPP_Practice\conditional_ternary_operator.cpp > CMakeFiles\conditional_ternary_operator.dir\conditional_ternary_operator.cpp.i
+CMakeFiles/conditional_ternary_operator.dir/PRACTICE_conditional_ternary_operator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/conditional_ternary_operator.dir/PRACTICE_conditional_ternary_operator.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\govin\Desktop\CPP_Practice\PRACTICE_conditional_ternary_operator.cpp > CMakeFiles\conditional_ternary_operator.dir\PRACTICE_conditional_ternary_operator.cpp.i
 
-CMakeFiles/conditional_ternary_operator.dir/conditional_ternary_operator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/conditional_ternary_operator.dir/conditional_ternary_operator.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\govin\Desktop\CPP_Practice\conditional_ternary_operator.cpp -o CMakeFiles\conditional_ternary_operator.dir\conditional_ternary_operator.cpp.s
+CMakeFiles/conditional_ternary_operator.dir/PRACTICE_conditional_ternary_operator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/conditional_ternary_operator.dir/PRACTICE_conditional_ternary_operator.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\govin\Desktop\CPP_Practice\PRACTICE_conditional_ternary_operator.cpp -o CMakeFiles\conditional_ternary_operator.dir\PRACTICE_conditional_ternary_operator.cpp.s
 
 # Object files for target conditional_ternary_operator
 conditional_ternary_operator_OBJECTS = \
-"CMakeFiles/conditional_ternary_operator.dir/conditional_ternary_operator.cpp.obj"
+"CMakeFiles/conditional_ternary_operator.dir/PRACTICE_conditional_ternary_operator.cpp.obj"
 
 # External object files for target conditional_ternary_operator
 conditional_ternary_operator_EXTERNAL_OBJECTS =
 
-conditional_ternary_operator.exe: CMakeFiles/conditional_ternary_operator.dir/conditional_ternary_operator.cpp.obj
+conditional_ternary_operator.exe: CMakeFiles/conditional_ternary_operator.dir/PRACTICE_conditional_ternary_operator.cpp.obj
 conditional_ternary_operator.exe: CMakeFiles/conditional_ternary_operator.dir/build.make
 conditional_ternary_operator.exe: CMakeFiles/conditional_ternary_operator.dir/linklibs.rsp
 conditional_ternary_operator.exe: CMakeFiles/conditional_ternary_operator.dir/objects1.rsp

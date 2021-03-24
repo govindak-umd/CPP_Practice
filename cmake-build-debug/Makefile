@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named conditional_ternary_operator
+# Target rules for targets named practice_goto
 
 # Build rule for target.
-conditional_ternary_operator: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 conditional_ternary_operator
-.PHONY : conditional_ternary_operator
+practice_goto: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practice_goto
+.PHONY : practice_goto
 
 # fast build rule for target.
-conditional_ternary_operator/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\conditional_ternary_operator.dir\build.make CMakeFiles/conditional_ternary_operator.dir/build
-.PHONY : conditional_ternary_operator/fast
+practice_goto/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice_goto.dir\build.make CMakeFiles/practice_goto.dir/build
+.PHONY : practice_goto/fast
 
-conditional_ternary_operator.obj: conditional_ternary_operator.cpp.obj
+PRACTICE_goto.obj: PRACTICE_goto.cpp.obj
 
-.PHONY : conditional_ternary_operator.obj
+.PHONY : PRACTICE_goto.obj
 
 # target to build an object file
-conditional_ternary_operator.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\conditional_ternary_operator.dir\build.make CMakeFiles/conditional_ternary_operator.dir/conditional_ternary_operator.cpp.obj
-.PHONY : conditional_ternary_operator.cpp.obj
+PRACTICE_goto.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice_goto.dir\build.make CMakeFiles/practice_goto.dir/PRACTICE_goto.cpp.obj
+.PHONY : PRACTICE_goto.cpp.obj
 
-conditional_ternary_operator.i: conditional_ternary_operator.cpp.i
+PRACTICE_goto.i: PRACTICE_goto.cpp.i
 
-.PHONY : conditional_ternary_operator.i
+.PHONY : PRACTICE_goto.i
 
 # target to preprocess a source file
-conditional_ternary_operator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\conditional_ternary_operator.dir\build.make CMakeFiles/conditional_ternary_operator.dir/conditional_ternary_operator.cpp.i
-.PHONY : conditional_ternary_operator.cpp.i
+PRACTICE_goto.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice_goto.dir\build.make CMakeFiles/practice_goto.dir/PRACTICE_goto.cpp.i
+.PHONY : PRACTICE_goto.cpp.i
 
-conditional_ternary_operator.s: conditional_ternary_operator.cpp.s
+PRACTICE_goto.s: PRACTICE_goto.cpp.s
 
-.PHONY : conditional_ternary_operator.s
+.PHONY : PRACTICE_goto.s
 
 # target to generate assembly for a file
-conditional_ternary_operator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\conditional_ternary_operator.dir\build.make CMakeFiles/conditional_ternary_operator.dir/conditional_ternary_operator.cpp.s
-.PHONY : conditional_ternary_operator.cpp.s
+PRACTICE_goto.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice_goto.dir\build.make CMakeFiles/practice_goto.dir/PRACTICE_goto.cpp.s
+.PHONY : PRACTICE_goto.cpp.s
 
 # Help Target
 help:
@@ -177,10 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... conditional_ternary_operator
-	@echo ... conditional_ternary_operator.obj
-	@echo ... conditional_ternary_operator.i
-	@echo ... conditional_ternary_operator.s
+	@echo ... practice_goto
+	@echo ... PRACTICE_goto.obj
+	@echo ... PRACTICE_goto.i
+	@echo ... PRACTICE_goto.s
 .PHONY : help
 
 

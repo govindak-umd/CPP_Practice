@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(conditional_ternary_operator conditional_ternary_operator.cpp)
+add_executable(practice_goto PRACTICE_goto.cpp)

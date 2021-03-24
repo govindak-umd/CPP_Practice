@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/govin/Desktop/CPP_Practice/PRACTICE_conditional_ternary_operator.cpp" "C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug/CMakeFiles/conditional_ternary_operator.dir/PRACTICE_conditional_ternary_operator.cpp.obj"
+  "C:/Users/govin/Desktop/CPP_Practice/PRACTICE_goto.cpp" "C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug/CMakeFiles/practice_goto.dir/PRACTICE_goto.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
