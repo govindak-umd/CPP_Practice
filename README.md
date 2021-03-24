@@ -18,6 +18,8 @@ Some examples here are:
 - Conditional Ternary Operator
 - GoTo
 - Passing by reference to a function
+- Template
+
 ## Some good references:
 
 - [Reference 1](http://www.cplusplus.com/doc/tutorial/)

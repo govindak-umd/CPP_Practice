@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named practice_pass
+# Target rules for targets named PRACTICE_template
 
 # Build rule for target.
-practice_pass: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practice_pass
-.PHONY : practice_pass
+PRACTICE_template: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PRACTICE_template
+.PHONY : PRACTICE_template
 
 # fast build rule for target.
-practice_pass/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice_pass.dir\build.make CMakeFiles/practice_pass.dir/build
-.PHONY : practice_pass/fast
+PRACTICE_template/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_template.dir\build.make CMakeFiles/PRACTICE_template.dir/build
+.PHONY : PRACTICE_template/fast
 
-PRACTICE_passing_by_reference.obj: PRACTICE_passing_by_reference.cpp.obj
+PRACTICE_template.obj: PRACTICE_template.cpp.obj
 
-.PHONY : PRACTICE_passing_by_reference.obj
+.PHONY : PRACTICE_template.obj
 
 # target to build an object file
-PRACTICE_passing_by_reference.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice_pass.dir\build.make CMakeFiles/practice_pass.dir/PRACTICE_passing_by_reference.cpp.obj
-.PHONY : PRACTICE_passing_by_reference.cpp.obj
+PRACTICE_template.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_template.dir\build.make CMakeFiles/PRACTICE_template.dir/PRACTICE_template.cpp.obj
+.PHONY : PRACTICE_template.cpp.obj
 
-PRACTICE_passing_by_reference.i: PRACTICE_passing_by_reference.cpp.i
+PRACTICE_template.i: PRACTICE_template.cpp.i
 
-.PHONY : PRACTICE_passing_by_reference.i
+.PHONY : PRACTICE_template.i
 
 # target to preprocess a source file
-PRACTICE_passing_by_reference.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice_pass.dir\build.make CMakeFiles/practice_pass.dir/PRACTICE_passing_by_reference.cpp.i
-.PHONY : PRACTICE_passing_by_reference.cpp.i
+PRACTICE_template.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_template.dir\build.make CMakeFiles/PRACTICE_template.dir/PRACTICE_template.cpp.i
+.PHONY : PRACTICE_template.cpp.i
 
-PRACTICE_passing_by_reference.s: PRACTICE_passing_by_reference.cpp.s
+PRACTICE_template.s: PRACTICE_template.cpp.s
 
-.PHONY : PRACTICE_passing_by_reference.s
+.PHONY : PRACTICE_template.s
 
 # target to generate assembly for a file
-PRACTICE_passing_by_reference.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\practice_pass.dir\build.make CMakeFiles/practice_pass.dir/PRACTICE_passing_by_reference.cpp.s
-.PHONY : PRACTICE_passing_by_reference.cpp.s
+PRACTICE_template.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_template.dir\build.make CMakeFiles/PRACTICE_template.dir/PRACTICE_template.cpp.s
+.PHONY : PRACTICE_template.cpp.s
 
 # Help Target
 help:
@@ -177,10 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... practice_pass
-	@echo ... PRACTICE_passing_by_reference.obj
-	@echo ... PRACTICE_passing_by_reference.i
-	@echo ... PRACTICE_passing_by_reference.s
+	@echo ... PRACTICE_template
+	@echo ... PRACTICE_template.obj
+	@echo ... PRACTICE_template.i
+	@echo ... PRACTICE_template.s
 .PHONY : help
 
 
