@@ -48,8 +48,8 @@ void binary_search(vector<int> my_vec,int to_search){
     // Completing the while loop to do binary search
     while (true){
         print_vec(my_vec);
-        size_t vec_len = my_vec.size()/2;
         size_t mid_vec_len = my_vec.size()/2;
+
         if (to_search < my_vec[mid_vec_len]){
             std::vector<int>my_vec2(my_vec.begin(),my_vec.begin()+mid_vec_len);
             my_vec = my_vec2;
@@ -58,6 +58,7 @@ void binary_search(vector<int> my_vec,int to_search){
             std::vector<int>my_vec2(my_vec.begin()+mid_vec_len,my_vec.end());
             my_vec = my_vec2;
         }
+
         else if(to_search == my_vec[mid_vec_len]){
             cout << "Number found" << endl;
             break;

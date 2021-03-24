@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/pointer.dir/pointers_smart_pointer_unique_pointer.cpp.o  -o pointer 

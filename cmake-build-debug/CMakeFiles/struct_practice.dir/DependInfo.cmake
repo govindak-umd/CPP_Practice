@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/govin/Desktop/CPP_Practice/pointer_practice.cpp" "C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug/CMakeFiles/pointer_practice.dir/pointer_practice.cpp.obj"
+  "C:/Users/govin/Desktop/CPP_Practice/struct_practice.cpp" "C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug/CMakeFiles/struct_practice.dir/struct_practice.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

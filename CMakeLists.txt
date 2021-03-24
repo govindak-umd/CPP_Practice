@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(pointer_practice pointer_practice.cpp)
+add_executable(struct_practice struct_practice.cpp)

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/pointer_practice.dir/pointer_practice.cpp.o"
-  "pointer_practice"
+  "CMakeFiles/pointer_practice.dir/pointer_practice.cpp.obj"
+  "libpointer_practice.dll.a"
+  "pointer_practice.exe"
+  "pointer_practice.exe.manifest"
   "pointer_practice.pdb"
 )
 
