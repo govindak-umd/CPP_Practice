@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named PRACTICE_inheritence
+# Target rules for targets named PRACTICE_virtual
 
 # Build rule for target.
-PRACTICE_inheritence: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PRACTICE_inheritence
-.PHONY : PRACTICE_inheritence
+PRACTICE_virtual: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PRACTICE_virtual
+.PHONY : PRACTICE_virtual
 
 # fast build rule for target.
-PRACTICE_inheritence/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_inheritence.dir\build.make CMakeFiles/PRACTICE_inheritence.dir/build
-.PHONY : PRACTICE_inheritence/fast
+PRACTICE_virtual/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_virtual.dir\build.make CMakeFiles/PRACTICE_virtual.dir/build
+.PHONY : PRACTICE_virtual/fast
 
-PRACTICE_inheritence.obj: PRACTICE_inheritence.cpp.obj
+PRACTICE_virtual.obj: PRACTICE_virtual.cpp.obj
 
-.PHONY : PRACTICE_inheritence.obj
+.PHONY : PRACTICE_virtual.obj
 
 # target to build an object file
-PRACTICE_inheritence.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_inheritence.dir\build.make CMakeFiles/PRACTICE_inheritence.dir/PRACTICE_inheritence.cpp.obj
-.PHONY : PRACTICE_inheritence.cpp.obj
+PRACTICE_virtual.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_virtual.dir\build.make CMakeFiles/PRACTICE_virtual.dir/PRACTICE_virtual.cpp.obj
+.PHONY : PRACTICE_virtual.cpp.obj
 
-PRACTICE_inheritence.i: PRACTICE_inheritence.cpp.i
+PRACTICE_virtual.i: PRACTICE_virtual.cpp.i
 
-.PHONY : PRACTICE_inheritence.i
+.PHONY : PRACTICE_virtual.i
 
 # target to preprocess a source file
-PRACTICE_inheritence.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_inheritence.dir\build.make CMakeFiles/PRACTICE_inheritence.dir/PRACTICE_inheritence.cpp.i
-.PHONY : PRACTICE_inheritence.cpp.i
+PRACTICE_virtual.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_virtual.dir\build.make CMakeFiles/PRACTICE_virtual.dir/PRACTICE_virtual.cpp.i
+.PHONY : PRACTICE_virtual.cpp.i
 
-PRACTICE_inheritence.s: PRACTICE_inheritence.cpp.s
+PRACTICE_virtual.s: PRACTICE_virtual.cpp.s
 
-.PHONY : PRACTICE_inheritence.s
+.PHONY : PRACTICE_virtual.s
 
 # target to generate assembly for a file
-PRACTICE_inheritence.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_inheritence.dir\build.make CMakeFiles/PRACTICE_inheritence.dir/PRACTICE_inheritence.cpp.s
-.PHONY : PRACTICE_inheritence.cpp.s
+PRACTICE_virtual.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_virtual.dir\build.make CMakeFiles/PRACTICE_virtual.dir/PRACTICE_virtual.cpp.s
+.PHONY : PRACTICE_virtual.cpp.s
 
 # Help Target
 help:
@@ -177,10 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... PRACTICE_inheritence
-	@echo ... PRACTICE_inheritence.obj
-	@echo ... PRACTICE_inheritence.i
-	@echo ... PRACTICE_inheritence.s
+	@echo ... PRACTICE_virtual
+	@echo ... PRACTICE_virtual.obj
+	@echo ... PRACTICE_virtual.i
+	@echo ... PRACTICE_virtual.s
 .PHONY : help
 
 
