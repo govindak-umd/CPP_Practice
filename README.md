@@ -4,10 +4,6 @@ This repository contains random practice C++ codes.
 
 Some examples here are:
 
-## Challenges Practice 
-
-- Temperature Increments
-
 ## Search algorithms Practice
 
 - Linear Search
