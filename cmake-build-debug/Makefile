@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named PRACTICE_virtual
+# Target rules for targets named PRACTICE_abstract_base_class
 
 # Build rule for target.
-PRACTICE_virtual: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PRACTICE_virtual
-.PHONY : PRACTICE_virtual
+PRACTICE_abstract_base_class: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PRACTICE_abstract_base_class
+.PHONY : PRACTICE_abstract_base_class
 
 # fast build rule for target.
-PRACTICE_virtual/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_virtual.dir\build.make CMakeFiles/PRACTICE_virtual.dir/build
-.PHONY : PRACTICE_virtual/fast
+PRACTICE_abstract_base_class/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_abstract_base_class.dir\build.make CMakeFiles/PRACTICE_abstract_base_class.dir/build
+.PHONY : PRACTICE_abstract_base_class/fast
 
-PRACTICE_virtual.obj: PRACTICE_virtual.cpp.obj
+PRACTICE_abstract_base_class.obj: PRACTICE_abstract_base_class.cpp.obj
 
-.PHONY : PRACTICE_virtual.obj
+.PHONY : PRACTICE_abstract_base_class.obj
 
 # target to build an object file
-PRACTICE_virtual.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_virtual.dir\build.make CMakeFiles/PRACTICE_virtual.dir/PRACTICE_virtual.cpp.obj
-.PHONY : PRACTICE_virtual.cpp.obj
+PRACTICE_abstract_base_class.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_abstract_base_class.dir\build.make CMakeFiles/PRACTICE_abstract_base_class.dir/PRACTICE_abstract_base_class.cpp.obj
+.PHONY : PRACTICE_abstract_base_class.cpp.obj
 
-PRACTICE_virtual.i: PRACTICE_virtual.cpp.i
+PRACTICE_abstract_base_class.i: PRACTICE_abstract_base_class.cpp.i
 
-.PHONY : PRACTICE_virtual.i
+.PHONY : PRACTICE_abstract_base_class.i
 
 # target to preprocess a source file
-PRACTICE_virtual.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_virtual.dir\build.make CMakeFiles/PRACTICE_virtual.dir/PRACTICE_virtual.cpp.i
-.PHONY : PRACTICE_virtual.cpp.i
+PRACTICE_abstract_base_class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_abstract_base_class.dir\build.make CMakeFiles/PRACTICE_abstract_base_class.dir/PRACTICE_abstract_base_class.cpp.i
+.PHONY : PRACTICE_abstract_base_class.cpp.i
 
-PRACTICE_virtual.s: PRACTICE_virtual.cpp.s
+PRACTICE_abstract_base_class.s: PRACTICE_abstract_base_class.cpp.s
 
-.PHONY : PRACTICE_virtual.s
+.PHONY : PRACTICE_abstract_base_class.s
 
 # target to generate assembly for a file
-PRACTICE_virtual.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_virtual.dir\build.make CMakeFiles/PRACTICE_virtual.dir/PRACTICE_virtual.cpp.s
-.PHONY : PRACTICE_virtual.cpp.s
+PRACTICE_abstract_base_class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_abstract_base_class.dir\build.make CMakeFiles/PRACTICE_abstract_base_class.dir/PRACTICE_abstract_base_class.cpp.s
+.PHONY : PRACTICE_abstract_base_class.cpp.s
 
 # Help Target
 help:
@@ -177,10 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... PRACTICE_virtual
-	@echo ... PRACTICE_virtual.obj
-	@echo ... PRACTICE_virtual.i
-	@echo ... PRACTICE_virtual.s
+	@echo ... PRACTICE_abstract_base_class
+	@echo ... PRACTICE_abstract_base_class.obj
+	@echo ... PRACTICE_abstract_base_class.i
+	@echo ... PRACTICE_abstract_base_class.s
 .PHONY : help
 
 
