@@ -53,5 +53,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/PRACTICE_Operator_Overloading.dir/DependInfo.cmake"
+  "CMakeFiles/PRACTICE_Friend_Function.dir/DependInfo.cmake"
   )

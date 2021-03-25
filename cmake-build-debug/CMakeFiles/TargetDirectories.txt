@@ -1,3 +1,3 @@
+C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug/CMakeFiles/PRACTICE_Friend_Function.dir
 C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug/CMakeFiles/PRACTICE_Operator_Overloading.dir
 C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir

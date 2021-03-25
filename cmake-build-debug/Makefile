@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named PRACTICE_Operator_Overloading
+# Target rules for targets named PRACTICE_Friend_Function
 
 # Build rule for target.
-PRACTICE_Operator_Overloading: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PRACTICE_Operator_Overloading
-.PHONY : PRACTICE_Operator_Overloading
+PRACTICE_Friend_Function: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PRACTICE_Friend_Function
+.PHONY : PRACTICE_Friend_Function
 
 # fast build rule for target.
-PRACTICE_Operator_Overloading/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_Operator_Overloading.dir\build.make CMakeFiles/PRACTICE_Operator_Overloading.dir/build
-.PHONY : PRACTICE_Operator_Overloading/fast
+PRACTICE_Friend_Function/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_Friend_Function.dir\build.make CMakeFiles/PRACTICE_Friend_Function.dir/build
+.PHONY : PRACTICE_Friend_Function/fast
 
-PRACTICE_Operator_Overloading.obj: PRACTICE_Operator_Overloading.cpp.obj
+PRACTICE_Friend_Function.obj: PRACTICE_Friend_Function.cpp.obj
 
-.PHONY : PRACTICE_Operator_Overloading.obj
+.PHONY : PRACTICE_Friend_Function.obj
 
 # target to build an object file
-PRACTICE_Operator_Overloading.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_Operator_Overloading.dir\build.make CMakeFiles/PRACTICE_Operator_Overloading.dir/PRACTICE_Operator_Overloading.cpp.obj
-.PHONY : PRACTICE_Operator_Overloading.cpp.obj
+PRACTICE_Friend_Function.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_Friend_Function.dir\build.make CMakeFiles/PRACTICE_Friend_Function.dir/PRACTICE_Friend_Function.cpp.obj
+.PHONY : PRACTICE_Friend_Function.cpp.obj
 
-PRACTICE_Operator_Overloading.i: PRACTICE_Operator_Overloading.cpp.i
+PRACTICE_Friend_Function.i: PRACTICE_Friend_Function.cpp.i
 
-.PHONY : PRACTICE_Operator_Overloading.i
+.PHONY : PRACTICE_Friend_Function.i
 
 # target to preprocess a source file
-PRACTICE_Operator_Overloading.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_Operator_Overloading.dir\build.make CMakeFiles/PRACTICE_Operator_Overloading.dir/PRACTICE_Operator_Overloading.cpp.i
-.PHONY : PRACTICE_Operator_Overloading.cpp.i
+PRACTICE_Friend_Function.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_Friend_Function.dir\build.make CMakeFiles/PRACTICE_Friend_Function.dir/PRACTICE_Friend_Function.cpp.i
+.PHONY : PRACTICE_Friend_Function.cpp.i
 
-PRACTICE_Operator_Overloading.s: PRACTICE_Operator_Overloading.cpp.s
+PRACTICE_Friend_Function.s: PRACTICE_Friend_Function.cpp.s
 
-.PHONY : PRACTICE_Operator_Overloading.s
+.PHONY : PRACTICE_Friend_Function.s
 
 # target to generate assembly for a file
-PRACTICE_Operator_Overloading.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_Operator_Overloading.dir\build.make CMakeFiles/PRACTICE_Operator_Overloading.dir/PRACTICE_Operator_Overloading.cpp.s
-.PHONY : PRACTICE_Operator_Overloading.cpp.s
+PRACTICE_Friend_Function.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_Friend_Function.dir\build.make CMakeFiles/PRACTICE_Friend_Function.dir/PRACTICE_Friend_Function.cpp.s
+.PHONY : PRACTICE_Friend_Function.cpp.s
 
 # Help Target
 help:
@@ -177,10 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... PRACTICE_Operator_Overloading
-	@echo ... PRACTICE_Operator_Overloading.obj
-	@echo ... PRACTICE_Operator_Overloading.i
-	@echo ... PRACTICE_Operator_Overloading.s
+	@echo ... PRACTICE_Friend_Function
+	@echo ... PRACTICE_Friend_Function.obj
+	@echo ... PRACTICE_Friend_Function.i
+	@echo ... PRACTICE_Friend_Function.s
 .PHONY : help
 
 

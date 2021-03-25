@@ -23,12 +23,16 @@ Some examples here are:
 - Pointer Arithmetic
 - Pointer to Structs
 - Enum
-  
-##### Remaining Topics to be covered
 - Operator Overloading
+
+##### Remaining Topics to be covered
+
 - Copy Constructor
+  - Shallow Copy
+  - Deep Copy
 - Move Constructor
 - Destructor
+- Friend Function 
 - Friend Class
 - Polymorphism
     - Virtual members
