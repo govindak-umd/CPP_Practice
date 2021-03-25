@@ -35,6 +35,7 @@ Some examples here are:
 - explicit keyword
 - typeid
 - Exceptions 
+- Preprocessor Derivatives
 
 ##### Remaining Topics to be covered
 
@@ -46,7 +47,7 @@ Some examples here are:
 - Type casting
     - Static cast
     - Dynamic Cast
-- Preprocessor Derivatives
+
 
 
 ## Some good references:
