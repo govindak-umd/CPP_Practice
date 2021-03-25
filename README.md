@@ -34,7 +34,7 @@ Some examples here are:
 - overrride keyword
 - explicit keyword
 - typeid
-  
+- Exceptions 
 
 ##### Remaining Topics to be covered
 
