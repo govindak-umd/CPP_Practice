@@ -23,6 +23,22 @@ Some examples here are:
 - Pointer Arithmetic
 - Pointer to Structs
 - Enum
+  
+##### Remaining Topics to be covered
+- Operator Overloading
+- Copy Constructor
+- Move Constructor
+- Destructor
+- Friend Class
+- Polymorphism
+    - Virtual members
+    - Abstract classes
+- explicit keyword
+- Type casting
+    - Static cast
+    - Dynamic Cast
+- Preprocessor Derivatives
+
 
 ## Some good references:
 
