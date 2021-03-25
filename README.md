@@ -32,6 +32,7 @@ Some examples here are:
   - Abstract classes
 - final keyword
 - overrride keyword
+- explicit keyword
 
 ##### Remaining Topics to be covered
 
@@ -39,7 +40,6 @@ Some examples here are:
   - Shallow Copy
   - Deep Copy
 - Move Constructor
-- explicit keyword
 - this keyword
 - Type casting
     - Static cast
