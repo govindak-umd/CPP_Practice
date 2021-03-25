@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Practice_Friend_Class Practice_Friend_Class.cpp)
+add_executable(PRACTICE_inheritence PRACTICE_inheritence.cpp)

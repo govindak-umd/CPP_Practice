@@ -25,6 +25,7 @@ Some examples here are:
 - Enum
 - Operator Overloading
 - Friend Function
+- Friend Class
 
 ##### Remaining Topics to be covered
 
@@ -33,11 +34,12 @@ Some examples here are:
   - Deep Copy
 - Move Constructor
 - Destructor
-- Friend Class
+- Inheritance
 - Polymorphism
     - Virtual members
     - Abstract classes
 - explicit keyword
+- this keyword  
 - Type casting
     - Static cast
     - Dynamic Cast

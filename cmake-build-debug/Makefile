@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Practice_Friend_Class
+# Target rules for targets named PRACTICE_inheritence
 
 # Build rule for target.
-Practice_Friend_Class: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Practice_Friend_Class
-.PHONY : Practice_Friend_Class
+PRACTICE_inheritence: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PRACTICE_inheritence
+.PHONY : PRACTICE_inheritence
 
 # fast build rule for target.
-Practice_Friend_Class/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practice_Friend_Class.dir\build.make CMakeFiles/Practice_Friend_Class.dir/build
-.PHONY : Practice_Friend_Class/fast
+PRACTICE_inheritence/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_inheritence.dir\build.make CMakeFiles/PRACTICE_inheritence.dir/build
+.PHONY : PRACTICE_inheritence/fast
 
-PRACTICE_Friend_Class.obj: PRACTICE_Friend_Class.cpp.obj
+PRACTICE_inheritence.obj: PRACTICE_inheritence.cpp.obj
 
-.PHONY : PRACTICE_Friend_Class.obj
+.PHONY : PRACTICE_inheritence.obj
 
 # target to build an object file
-PRACTICE_Friend_Class.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practice_Friend_Class.dir\build.make CMakeFiles/Practice_Friend_Class.dir/PRACTICE_Friend_Class.cpp.obj
-.PHONY : PRACTICE_Friend_Class.cpp.obj
+PRACTICE_inheritence.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_inheritence.dir\build.make CMakeFiles/PRACTICE_inheritence.dir/PRACTICE_inheritence.cpp.obj
+.PHONY : PRACTICE_inheritence.cpp.obj
 
-PRACTICE_Friend_Class.i: PRACTICE_Friend_Class.cpp.i
+PRACTICE_inheritence.i: PRACTICE_inheritence.cpp.i
 
-.PHONY : PRACTICE_Friend_Class.i
+.PHONY : PRACTICE_inheritence.i
 
 # target to preprocess a source file
-PRACTICE_Friend_Class.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practice_Friend_Class.dir\build.make CMakeFiles/Practice_Friend_Class.dir/PRACTICE_Friend_Class.cpp.i
-.PHONY : PRACTICE_Friend_Class.cpp.i
+PRACTICE_inheritence.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_inheritence.dir\build.make CMakeFiles/PRACTICE_inheritence.dir/PRACTICE_inheritence.cpp.i
+.PHONY : PRACTICE_inheritence.cpp.i
 
-PRACTICE_Friend_Class.s: PRACTICE_Friend_Class.cpp.s
+PRACTICE_inheritence.s: PRACTICE_inheritence.cpp.s
 
-.PHONY : PRACTICE_Friend_Class.s
+.PHONY : PRACTICE_inheritence.s
 
 # target to generate assembly for a file
-PRACTICE_Friend_Class.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Practice_Friend_Class.dir\build.make CMakeFiles/Practice_Friend_Class.dir/PRACTICE_Friend_Class.cpp.s
-.PHONY : PRACTICE_Friend_Class.cpp.s
+PRACTICE_inheritence.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_inheritence.dir\build.make CMakeFiles/PRACTICE_inheritence.dir/PRACTICE_inheritence.cpp.s
+.PHONY : PRACTICE_inheritence.cpp.s
 
 # Help Target
 help:
@@ -177,10 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Practice_Friend_Class
-	@echo ... PRACTICE_Friend_Class.obj
-	@echo ... PRACTICE_Friend_Class.i
-	@echo ... PRACTICE_Friend_Class.s
+	@echo ... PRACTICE_inheritence
+	@echo ... PRACTICE_inheritence.obj
+	@echo ... PRACTICE_inheritence.i
+	@echo ... PRACTICE_inheritence.s
 .PHONY : help
 
 
