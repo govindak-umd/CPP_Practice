@@ -24,6 +24,7 @@ Some examples here are:
 - Pointer to Structs
 - Enum
 - Operator Overloading
+- Friend Function
 
 ##### Remaining Topics to be covered
 
@@ -32,7 +33,6 @@ Some examples here are:
   - Deep Copy
 - Move Constructor
 - Destructor
-- Friend Function 
 - Friend Class
 - Polymorphism
     - Virtual members
