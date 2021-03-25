@@ -33,6 +33,8 @@ Some examples here are:
 - final keyword
 - overrride keyword
 - explicit keyword
+- typeid
+  
 
 ##### Remaining Topics to be covered
 
