@@ -41,7 +41,6 @@ Some examples here are:
 - Move Constructor
 - explicit keyword
 - this keyword
-
 - Type casting
     - Static cast
     - Dynamic Cast
