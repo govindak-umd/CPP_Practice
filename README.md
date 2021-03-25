@@ -27,19 +27,21 @@ Some examples here are:
 - Friend Function
 - Friend Class
 - Inheritance
-
+- Polymorphism
+  - Virtual members
+  - Abstract classes
+  
 ##### Remaining Topics to be covered
 
 - Copy Constructor
   - Shallow Copy
   - Deep Copy
 - Move Constructor
-- Polymorphism
-    - Virtual members
-    - Abstract classes
 - explicit keyword
 - this keyword
 - final keyword
+- overrride keyword
+
 - Type casting
     - Static cast
     - Dynamic Cast

@@ -34,7 +34,7 @@ int main(){
 
     Rectangle rectangle;
 
-    Shape * shape = &triangle;
+    Shape * shape = triangle;
     Shape * shape2 = &rectangle;
 
     shape->printSides();

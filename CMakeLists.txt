@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(PRACTICE_abstract_base_class PRACTICE_abstract_base_class.cpp)
+add_executable(PRACTICE_final_keyword PRACTICE_final_keyword.cpp)
