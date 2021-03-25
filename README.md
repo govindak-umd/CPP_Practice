@@ -30,7 +30,9 @@ Some examples here are:
 - Polymorphism
   - Virtual members
   - Abstract classes
-  
+- final keyword
+- overrride keyword
+
 ##### Remaining Topics to be covered
 
 - Copy Constructor
@@ -39,8 +41,6 @@ Some examples here are:
 - Move Constructor
 - explicit keyword
 - this keyword
-- final keyword
-- overrride keyword
 
 - Type casting
     - Static cast
@@ -51,3 +51,5 @@ Some examples here are:
 ## Some good references:
 
 - [Reference 1](http://www.cplusplus.com/doc/tutorial/)
+- [Reference for Override](https://www.geeksforgeeks.org/override-keyword-c/)
+
