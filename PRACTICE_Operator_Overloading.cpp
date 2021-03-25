@@ -1,0 +1,44 @@
+#include<iostream>
+
+class RacingPoints{
+    public:
+
+    int points;
+    RacingPoints operator +(const RacingPoints&);
+    RacingPoints operator -(const RacingPoints&);
+};
+
+RacingPoints RacingPoints::operator+ (const RacingPoints& race_1_points){
+    RacingPoints new_race;
+    new_race.points = race_1_points.points + points;
+    return new_race;
+}
+
+RacingPoints RacingPoints::operator- (const RacingPoints& race_1_points){
+    RacingPoints new_race;
+    new_race.points = race_1_points.points - points;
+    return new_race;
+}
+
+int main(){
+    RacingPoints race_1;
+    race_1.points = 510;
+
+    RacingPoints race_2;
+    race_2.points = 250;
+
+
+    RacingPoints race_3;
+
+    race_3 = race_1 + race_2;
+
+    std::cout << "Sum of racing points : " << race_3.points <<  std::endl;
+
+    RacingPoints race_4;
+
+    race_4 = race_1 - race_2;
+
+    std::cout << "Difference of racing points : " << abs(race_4.points) <<  std::endl;
+
+    return 1;
+}

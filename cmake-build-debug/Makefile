@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named PRACTICE_enum
+# Target rules for targets named PRACTICE_Operator_Overloading
 
 # Build rule for target.
-PRACTICE_enum: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PRACTICE_enum
-.PHONY : PRACTICE_enum
+PRACTICE_Operator_Overloading: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PRACTICE_Operator_Overloading
+.PHONY : PRACTICE_Operator_Overloading
 
 # fast build rule for target.
-PRACTICE_enum/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_enum.dir\build.make CMakeFiles/PRACTICE_enum.dir/build
-.PHONY : PRACTICE_enum/fast
+PRACTICE_Operator_Overloading/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_Operator_Overloading.dir\build.make CMakeFiles/PRACTICE_Operator_Overloading.dir/build
+.PHONY : PRACTICE_Operator_Overloading/fast
 
-PRACTICE_enum.obj: PRACTICE_enum.cpp.obj
+PRACTICE_Operator_Overloading.obj: PRACTICE_Operator_Overloading.cpp.obj
 
-.PHONY : PRACTICE_enum.obj
+.PHONY : PRACTICE_Operator_Overloading.obj
 
 # target to build an object file
-PRACTICE_enum.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_enum.dir\build.make CMakeFiles/PRACTICE_enum.dir/PRACTICE_enum.cpp.obj
-.PHONY : PRACTICE_enum.cpp.obj
+PRACTICE_Operator_Overloading.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_Operator_Overloading.dir\build.make CMakeFiles/PRACTICE_Operator_Overloading.dir/PRACTICE_Operator_Overloading.cpp.obj
+.PHONY : PRACTICE_Operator_Overloading.cpp.obj
 
-PRACTICE_enum.i: PRACTICE_enum.cpp.i
+PRACTICE_Operator_Overloading.i: PRACTICE_Operator_Overloading.cpp.i
 
-.PHONY : PRACTICE_enum.i
+.PHONY : PRACTICE_Operator_Overloading.i
 
 # target to preprocess a source file
-PRACTICE_enum.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_enum.dir\build.make CMakeFiles/PRACTICE_enum.dir/PRACTICE_enum.cpp.i
-.PHONY : PRACTICE_enum.cpp.i
+PRACTICE_Operator_Overloading.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_Operator_Overloading.dir\build.make CMakeFiles/PRACTICE_Operator_Overloading.dir/PRACTICE_Operator_Overloading.cpp.i
+.PHONY : PRACTICE_Operator_Overloading.cpp.i
 
-PRACTICE_enum.s: PRACTICE_enum.cpp.s
+PRACTICE_Operator_Overloading.s: PRACTICE_Operator_Overloading.cpp.s
 
-.PHONY : PRACTICE_enum.s
+.PHONY : PRACTICE_Operator_Overloading.s
 
 # target to generate assembly for a file
-PRACTICE_enum.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_enum.dir\build.make CMakeFiles/PRACTICE_enum.dir/PRACTICE_enum.cpp.s
-.PHONY : PRACTICE_enum.cpp.s
+PRACTICE_Operator_Overloading.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_Operator_Overloading.dir\build.make CMakeFiles/PRACTICE_Operator_Overloading.dir/PRACTICE_Operator_Overloading.cpp.s
+.PHONY : PRACTICE_Operator_Overloading.cpp.s
 
 # Help Target
 help:
@@ -177,10 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... PRACTICE_enum
-	@echo ... PRACTICE_enum.obj
-	@echo ... PRACTICE_enum.i
-	@echo ... PRACTICE_enum.s
+	@echo ... PRACTICE_Operator_Overloading
+	@echo ... PRACTICE_Operator_Overloading.obj
+	@echo ... PRACTICE_Operator_Overloading.i
+	@echo ... PRACTICE_Operator_Overloading.s
 .PHONY : help
 
 
