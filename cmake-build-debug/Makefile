@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = C:\Users\govin\Desktop\CPP_Practice\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -96,6 +85,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named PRACTICE_preprocessor_derivatives
+# Target rules for targets named STL_set
 
 # Build rule for target.
-PRACTICE_preprocessor_derivatives: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PRACTICE_preprocessor_derivatives
-.PHONY : PRACTICE_preprocessor_derivatives
+STL_set: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 STL_set
+.PHONY : STL_set
 
 # fast build rule for target.
-PRACTICE_preprocessor_derivatives/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_preprocessor_derivatives.dir\build.make CMakeFiles/PRACTICE_preprocessor_derivatives.dir/build
-.PHONY : PRACTICE_preprocessor_derivatives/fast
+STL_set/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_set.dir\build.make CMakeFiles/STL_set.dir/build
+.PHONY : STL_set/fast
 
-PRACTICE_preprocessor_derivatives.obj: PRACTICE_preprocessor_derivatives.cpp.obj
+STL_set.obj: STL_set.cpp.obj
 
-.PHONY : PRACTICE_preprocessor_derivatives.obj
+.PHONY : STL_set.obj
 
 # target to build an object file
-PRACTICE_preprocessor_derivatives.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_preprocessor_derivatives.dir\build.make CMakeFiles/PRACTICE_preprocessor_derivatives.dir/PRACTICE_preprocessor_derivatives.cpp.obj
-.PHONY : PRACTICE_preprocessor_derivatives.cpp.obj
+STL_set.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_set.dir\build.make CMakeFiles/STL_set.dir/STL_set.cpp.obj
+.PHONY : STL_set.cpp.obj
 
-PRACTICE_preprocessor_derivatives.i: PRACTICE_preprocessor_derivatives.cpp.i
+STL_set.i: STL_set.cpp.i
 
-.PHONY : PRACTICE_preprocessor_derivatives.i
+.PHONY : STL_set.i
 
 # target to preprocess a source file
-PRACTICE_preprocessor_derivatives.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_preprocessor_derivatives.dir\build.make CMakeFiles/PRACTICE_preprocessor_derivatives.dir/PRACTICE_preprocessor_derivatives.cpp.i
-.PHONY : PRACTICE_preprocessor_derivatives.cpp.i
+STL_set.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_set.dir\build.make CMakeFiles/STL_set.dir/STL_set.cpp.i
+.PHONY : STL_set.cpp.i
 
-PRACTICE_preprocessor_derivatives.s: PRACTICE_preprocessor_derivatives.cpp.s
+STL_set.s: STL_set.cpp.s
 
-.PHONY : PRACTICE_preprocessor_derivatives.s
+.PHONY : STL_set.s
 
 # target to generate assembly for a file
-PRACTICE_preprocessor_derivatives.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_preprocessor_derivatives.dir\build.make CMakeFiles/PRACTICE_preprocessor_derivatives.dir/PRACTICE_preprocessor_derivatives.cpp.s
-.PHONY : PRACTICE_preprocessor_derivatives.cpp.s
+STL_set.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_set.dir\build.make CMakeFiles/STL_set.dir/STL_set.cpp.s
+.PHONY : STL_set.cpp.s
 
 # Help Target
 help:
@@ -177,10 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... PRACTICE_preprocessor_derivatives
-	@echo ... PRACTICE_preprocessor_derivatives.obj
-	@echo ... PRACTICE_preprocessor_derivatives.i
-	@echo ... PRACTICE_preprocessor_derivatives.s
+	@echo ... STL_set
+	@echo ... STL_set.obj
+	@echo ... STL_set.i
+	@echo ... STL_set.s
 .PHONY : help
 
 

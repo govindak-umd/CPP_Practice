@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(PRACTICE_preprocessor_derivatives PRACTICE_preprocessor_derivatives.cpp)
+add_executable(STL_set STL_set.cpp)

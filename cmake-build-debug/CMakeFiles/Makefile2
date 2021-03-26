@@ -72,7 +72,7 @@ CMAKE_BINARY_DIR = C:\Users\govin\Desktop\CPP_Practice\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/PRACTICE_preprocessor_derivatives.dir/all
+all: CMakeFiles/STL_set.dir/all
 
 .PHONY : all
 
@@ -82,36 +82,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/PRACTICE_preprocessor_derivatives.dir/clean
+clean: CMakeFiles/STL_set.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/PRACTICE_preprocessor_derivatives.dir
+# Target rules for target CMakeFiles/STL_set.dir
 
 # All Build rule for target.
-CMakeFiles/PRACTICE_preprocessor_derivatives.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_preprocessor_derivatives.dir\build.make CMakeFiles/PRACTICE_preprocessor_derivatives.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_preprocessor_derivatives.dir\build.make CMakeFiles/PRACTICE_preprocessor_derivatives.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\govin\Desktop\CPP_Practice\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target PRACTICE_preprocessor_derivatives"
-.PHONY : CMakeFiles/PRACTICE_preprocessor_derivatives.dir/all
+CMakeFiles/STL_set.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_set.dir\build.make CMakeFiles/STL_set.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_set.dir\build.make CMakeFiles/STL_set.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\govin\Desktop\CPP_Practice\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target STL_set"
+.PHONY : CMakeFiles/STL_set.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/PRACTICE_preprocessor_derivatives.dir/rule: cmake_check_build_system
+CMakeFiles/STL_set.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\govin\Desktop\CPP_Practice\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/PRACTICE_preprocessor_derivatives.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/STL_set.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\govin\Desktop\CPP_Practice\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/PRACTICE_preprocessor_derivatives.dir/rule
+.PHONY : CMakeFiles/STL_set.dir/rule
 
 # Convenience name for target.
-PRACTICE_preprocessor_derivatives: CMakeFiles/PRACTICE_preprocessor_derivatives.dir/rule
+STL_set: CMakeFiles/STL_set.dir/rule
 
-.PHONY : PRACTICE_preprocessor_derivatives
+.PHONY : STL_set
 
 # clean rule for target.
-CMakeFiles/PRACTICE_preprocessor_derivatives.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PRACTICE_preprocessor_derivatives.dir\build.make CMakeFiles/PRACTICE_preprocessor_derivatives.dir/clean
-.PHONY : CMakeFiles/PRACTICE_preprocessor_derivatives.dir/clean
+CMakeFiles/STL_set.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_set.dir\build.make CMakeFiles/STL_set.dir/clean
+.PHONY : CMakeFiles/STL_set.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
