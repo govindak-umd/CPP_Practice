@@ -9,6 +9,23 @@ Some examples here are:
 - Linear Search
 - Binary Search
   
+## Standard Template Library Practice
+
+<p align="center">
+  <img height="500" src="Images/stl_1.png">
+</p>
+
+<p align="center">
+  <img height="500" src="Images/stl_2.png">
+</p>
+
+There are 4 main components to STL
+
+- Algorithms
+- Containers
+- Functions
+- Iterators
+
 ## Concepts Practice
 
 - Linked List
@@ -59,4 +76,5 @@ Some examples here are:
 
 - [Reference 1](http://www.cplusplus.com/doc/tutorial/)
 - [Reference for Override](https://www.geeksforgeeks.org/override-keyword-c/)
+- [Reference for STL](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/)
 
