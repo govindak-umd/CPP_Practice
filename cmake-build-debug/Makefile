@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = C:\Users\govin\Desktop\CPP_Practice\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -96,6 +85,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named STL_set
+# Target rules for targets named STL_map
 
 # Build rule for target.
-STL_set: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 STL_set
-.PHONY : STL_set
+STL_map: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 STL_map
+.PHONY : STL_map
 
 # fast build rule for target.
-STL_set/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_set.dir\build.make CMakeFiles/STL_set.dir/build
-.PHONY : STL_set/fast
+STL_map/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_map.dir\build.make CMakeFiles/STL_map.dir/build
+.PHONY : STL_map/fast
 
-STL_set.obj: STL_set.cpp.obj
+STL_map.obj: STL_map.cpp.obj
 
-.PHONY : STL_set.obj
+.PHONY : STL_map.obj
 
 # target to build an object file
-STL_set.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_set.dir\build.make CMakeFiles/STL_set.dir/STL_set.cpp.obj
-.PHONY : STL_set.cpp.obj
+STL_map.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_map.dir\build.make CMakeFiles/STL_map.dir/STL_map.cpp.obj
+.PHONY : STL_map.cpp.obj
 
-STL_set.i: STL_set.cpp.i
+STL_map.i: STL_map.cpp.i
 
-.PHONY : STL_set.i
+.PHONY : STL_map.i
 
 # target to preprocess a source file
-STL_set.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_set.dir\build.make CMakeFiles/STL_set.dir/STL_set.cpp.i
-.PHONY : STL_set.cpp.i
+STL_map.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_map.dir\build.make CMakeFiles/STL_map.dir/STL_map.cpp.i
+.PHONY : STL_map.cpp.i
 
-STL_set.s: STL_set.cpp.s
+STL_map.s: STL_map.cpp.s
 
-.PHONY : STL_set.s
+.PHONY : STL_map.s
 
 # target to generate assembly for a file
-STL_set.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_set.dir\build.make CMakeFiles/STL_set.dir/STL_set.cpp.s
-.PHONY : STL_set.cpp.s
+STL_map.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_map.dir\build.make CMakeFiles/STL_map.dir/STL_map.cpp.s
+.PHONY : STL_map.cpp.s
 
 # Help Target
 help:
@@ -177,10 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... STL_set
-	@echo ... STL_set.obj
-	@echo ... STL_set.i
-	@echo ... STL_set.s
+	@echo ... STL_map
+	@echo ... STL_map.obj
+	@echo ... STL_map.i
+	@echo ... STL_map.s
 .PHONY : help
 
 
