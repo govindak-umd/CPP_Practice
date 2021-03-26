@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named STL_unordered_set
+# Target rules for targets named STL_priority_queue
 
 # Build rule for target.
-STL_unordered_set: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 STL_unordered_set
-.PHONY : STL_unordered_set
+STL_priority_queue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 STL_priority_queue
+.PHONY : STL_priority_queue
 
 # fast build rule for target.
-STL_unordered_set/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_unordered_set.dir\build.make CMakeFiles/STL_unordered_set.dir/build
-.PHONY : STL_unordered_set/fast
+STL_priority_queue/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_priority_queue.dir\build.make CMakeFiles/STL_priority_queue.dir/build
+.PHONY : STL_priority_queue/fast
 
-STL_unordered_set.obj: STL_unordered_set.cpp.obj
+STL_priority_queue.obj: STL_priority_queue.cpp.obj
 
-.PHONY : STL_unordered_set.obj
+.PHONY : STL_priority_queue.obj
 
 # target to build an object file
-STL_unordered_set.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_unordered_set.dir\build.make CMakeFiles/STL_unordered_set.dir/STL_unordered_set.cpp.obj
-.PHONY : STL_unordered_set.cpp.obj
+STL_priority_queue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_priority_queue.dir\build.make CMakeFiles/STL_priority_queue.dir/STL_priority_queue.cpp.obj
+.PHONY : STL_priority_queue.cpp.obj
 
-STL_unordered_set.i: STL_unordered_set.cpp.i
+STL_priority_queue.i: STL_priority_queue.cpp.i
 
-.PHONY : STL_unordered_set.i
+.PHONY : STL_priority_queue.i
 
 # target to preprocess a source file
-STL_unordered_set.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_unordered_set.dir\build.make CMakeFiles/STL_unordered_set.dir/STL_unordered_set.cpp.i
-.PHONY : STL_unordered_set.cpp.i
+STL_priority_queue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_priority_queue.dir\build.make CMakeFiles/STL_priority_queue.dir/STL_priority_queue.cpp.i
+.PHONY : STL_priority_queue.cpp.i
 
-STL_unordered_set.s: STL_unordered_set.cpp.s
+STL_priority_queue.s: STL_priority_queue.cpp.s
 
-.PHONY : STL_unordered_set.s
+.PHONY : STL_priority_queue.s
 
 # target to generate assembly for a file
-STL_unordered_set.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_unordered_set.dir\build.make CMakeFiles/STL_unordered_set.dir/STL_unordered_set.cpp.s
-.PHONY : STL_unordered_set.cpp.s
+STL_priority_queue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_priority_queue.dir\build.make CMakeFiles/STL_priority_queue.dir/STL_priority_queue.cpp.s
+.PHONY : STL_priority_queue.cpp.s
 
 # Help Target
 help:
@@ -177,10 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... STL_unordered_set
-	@echo ... STL_unordered_set.obj
-	@echo ... STL_unordered_set.i
-	@echo ... STL_unordered_set.s
+	@echo ... STL_priority_queue
+	@echo ... STL_priority_queue.obj
+	@echo ... STL_priority_queue.i
+	@echo ... STL_priority_queue.s
 .PHONY : help
 
 

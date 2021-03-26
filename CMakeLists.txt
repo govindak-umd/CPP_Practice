@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(STL_unordered_set STL_unordered_set.cpp)
+add_executable(STL_priority_queue STL_priority_queue.cpp)
