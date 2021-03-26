@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(STL_unordered_map STL_unordered_map.cpp)
+add_executable(STL_unordered_set STL_unordered_set.cpp)
