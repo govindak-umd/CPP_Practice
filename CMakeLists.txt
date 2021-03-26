@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(STL_stack STL_stack.cpp)
+add_executable(STL_queue STL_queue.cpp)

@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named STL_stack
+# Target rules for targets named STL_queue
 
 # Build rule for target.
-STL_stack: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 STL_stack
-.PHONY : STL_stack
+STL_queue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 STL_queue
+.PHONY : STL_queue
 
 # fast build rule for target.
-STL_stack/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_stack.dir\build.make CMakeFiles/STL_stack.dir/build
-.PHONY : STL_stack/fast
+STL_queue/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_queue.dir\build.make CMakeFiles/STL_queue.dir/build
+.PHONY : STL_queue/fast
 
-STL_stack.obj: STL_stack.cpp.obj
+STL_queue.obj: STL_queue.cpp.obj
 
-.PHONY : STL_stack.obj
+.PHONY : STL_queue.obj
 
 # target to build an object file
-STL_stack.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_stack.dir\build.make CMakeFiles/STL_stack.dir/STL_stack.cpp.obj
-.PHONY : STL_stack.cpp.obj
+STL_queue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_queue.dir\build.make CMakeFiles/STL_queue.dir/STL_queue.cpp.obj
+.PHONY : STL_queue.cpp.obj
 
-STL_stack.i: STL_stack.cpp.i
+STL_queue.i: STL_queue.cpp.i
 
-.PHONY : STL_stack.i
+.PHONY : STL_queue.i
 
 # target to preprocess a source file
-STL_stack.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_stack.dir\build.make CMakeFiles/STL_stack.dir/STL_stack.cpp.i
-.PHONY : STL_stack.cpp.i
+STL_queue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_queue.dir\build.make CMakeFiles/STL_queue.dir/STL_queue.cpp.i
+.PHONY : STL_queue.cpp.i
 
-STL_stack.s: STL_stack.cpp.s
+STL_queue.s: STL_queue.cpp.s
 
-.PHONY : STL_stack.s
+.PHONY : STL_queue.s
 
 # target to generate assembly for a file
-STL_stack.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_stack.dir\build.make CMakeFiles/STL_stack.dir/STL_stack.cpp.s
-.PHONY : STL_stack.cpp.s
+STL_queue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_queue.dir\build.make CMakeFiles/STL_queue.dir/STL_queue.cpp.s
+.PHONY : STL_queue.cpp.s
 
 # Help Target
 help:
@@ -177,10 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... STL_stack
-	@echo ... STL_stack.obj
-	@echo ... STL_stack.i
-	@echo ... STL_stack.s
+	@echo ... STL_queue
+	@echo ... STL_queue.obj
+	@echo ... STL_queue.i
+	@echo ... STL_queue.s
 .PHONY : help
 
 

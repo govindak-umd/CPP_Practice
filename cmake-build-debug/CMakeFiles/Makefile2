@@ -72,7 +72,7 @@ CMAKE_BINARY_DIR = C:\Users\govin\Desktop\CPP_Practice\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/STL_stack.dir/all
+all: CMakeFiles/STL_queue.dir/all
 
 .PHONY : all
 
@@ -82,36 +82,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/STL_stack.dir/clean
+clean: CMakeFiles/STL_queue.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/STL_stack.dir
+# Target rules for target CMakeFiles/STL_queue.dir
 
 # All Build rule for target.
-CMakeFiles/STL_stack.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_stack.dir\build.make CMakeFiles/STL_stack.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_stack.dir\build.make CMakeFiles/STL_stack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\govin\Desktop\CPP_Practice\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target STL_stack"
-.PHONY : CMakeFiles/STL_stack.dir/all
+CMakeFiles/STL_queue.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_queue.dir\build.make CMakeFiles/STL_queue.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_queue.dir\build.make CMakeFiles/STL_queue.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\govin\Desktop\CPP_Practice\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target STL_queue"
+.PHONY : CMakeFiles/STL_queue.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/STL_stack.dir/rule: cmake_check_build_system
+CMakeFiles/STL_queue.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\govin\Desktop\CPP_Practice\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/STL_stack.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/STL_queue.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\govin\Desktop\CPP_Practice\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/STL_stack.dir/rule
+.PHONY : CMakeFiles/STL_queue.dir/rule
 
 # Convenience name for target.
-STL_stack: CMakeFiles/STL_stack.dir/rule
+STL_queue: CMakeFiles/STL_queue.dir/rule
 
-.PHONY : STL_stack
+.PHONY : STL_queue
 
 # clean rule for target.
-CMakeFiles/STL_stack.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_stack.dir\build.make CMakeFiles/STL_stack.dir/clean
-.PHONY : CMakeFiles/STL_stack.dir/clean
+CMakeFiles/STL_queue.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_queue.dir\build.make CMakeFiles/STL_queue.dir/clean
+.PHONY : CMakeFiles/STL_queue.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

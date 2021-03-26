@@ -36,8 +36,10 @@ int main(){
 void printStack(std::stack<int> stack_sample){
     std::cout << "Stack Elements in Order: " << std::endl;
 
+    int top_stack;
+
     while(!stack_sample.empty()){
-        int c = stack_sample.top();
+        top_stack = stack_sample.top();
         std::cout << c << std::endl;
         stack_sample.pop();
     }
