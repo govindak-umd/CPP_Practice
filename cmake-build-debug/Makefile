@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named STL_map
+# Target rules for targets named STL_stack
 
 # Build rule for target.
-STL_map: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 STL_map
-.PHONY : STL_map
+STL_stack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 STL_stack
+.PHONY : STL_stack
 
 # fast build rule for target.
-STL_map/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_map.dir\build.make CMakeFiles/STL_map.dir/build
-.PHONY : STL_map/fast
+STL_stack/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_stack.dir\build.make CMakeFiles/STL_stack.dir/build
+.PHONY : STL_stack/fast
 
-STL_map.obj: STL_map.cpp.obj
+STL_stack.obj: STL_stack.cpp.obj
 
-.PHONY : STL_map.obj
+.PHONY : STL_stack.obj
 
 # target to build an object file
-STL_map.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_map.dir\build.make CMakeFiles/STL_map.dir/STL_map.cpp.obj
-.PHONY : STL_map.cpp.obj
+STL_stack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_stack.dir\build.make CMakeFiles/STL_stack.dir/STL_stack.cpp.obj
+.PHONY : STL_stack.cpp.obj
 
-STL_map.i: STL_map.cpp.i
+STL_stack.i: STL_stack.cpp.i
 
-.PHONY : STL_map.i
+.PHONY : STL_stack.i
 
 # target to preprocess a source file
-STL_map.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_map.dir\build.make CMakeFiles/STL_map.dir/STL_map.cpp.i
-.PHONY : STL_map.cpp.i
+STL_stack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_stack.dir\build.make CMakeFiles/STL_stack.dir/STL_stack.cpp.i
+.PHONY : STL_stack.cpp.i
 
-STL_map.s: STL_map.cpp.s
+STL_stack.s: STL_stack.cpp.s
 
-.PHONY : STL_map.s
+.PHONY : STL_stack.s
 
 # target to generate assembly for a file
-STL_map.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_map.dir\build.make CMakeFiles/STL_map.dir/STL_map.cpp.s
-.PHONY : STL_map.cpp.s
+STL_stack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_stack.dir\build.make CMakeFiles/STL_stack.dir/STL_stack.cpp.s
+.PHONY : STL_stack.cpp.s
 
 # Help Target
 help:
@@ -177,10 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... STL_map
-	@echo ... STL_map.obj
-	@echo ... STL_map.i
-	@echo ... STL_map.s
+	@echo ... STL_stack
+	@echo ... STL_stack.obj
+	@echo ... STL_stack.i
+	@echo ... STL_stack.s
 .PHONY : help
 
 

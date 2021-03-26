@@ -17,8 +17,8 @@
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="STL_map">
-				<Option output="C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug/STL_map.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="STL_stack">
+				<Option output="C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug/STL_stack.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -32,14 +32,14 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 STL_map"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 STL_stack"/>
 					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="STL_map/fast">
-				<Option output="C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug/STL_map.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="STL_stack/fast">
+				<Option output="C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug/STL_stack.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -53,7 +53,7 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 STL_map/fast"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 STL_stack/fast"/>
 					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -80,8 +80,8 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/govin/Desktop/CPP_Practice/STL_map.cpp">
-			<Option target="STL_map"/>
+		<Unit filename="C:/Users/govin/Desktop/CPP_Practice/STL_stack.cpp">
+			<Option target="STL_stack"/>
 		</Unit>
 		<Unit filename="C:/Users/govin/Desktop/CPP_Practice/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
