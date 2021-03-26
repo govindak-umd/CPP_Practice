@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named STL_priority_queue
+# Target rules for targets named STL_deque
 
 # Build rule for target.
-STL_priority_queue: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 STL_priority_queue
-.PHONY : STL_priority_queue
+STL_deque: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 STL_deque
+.PHONY : STL_deque
 
 # fast build rule for target.
-STL_priority_queue/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_priority_queue.dir\build.make CMakeFiles/STL_priority_queue.dir/build
-.PHONY : STL_priority_queue/fast
+STL_deque/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_deque.dir\build.make CMakeFiles/STL_deque.dir/build
+.PHONY : STL_deque/fast
 
-STL_priority_queue.obj: STL_priority_queue.cpp.obj
+STL_deque.obj: STL_deque.cpp.obj
 
-.PHONY : STL_priority_queue.obj
+.PHONY : STL_deque.obj
 
 # target to build an object file
-STL_priority_queue.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_priority_queue.dir\build.make CMakeFiles/STL_priority_queue.dir/STL_priority_queue.cpp.obj
-.PHONY : STL_priority_queue.cpp.obj
+STL_deque.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_deque.dir\build.make CMakeFiles/STL_deque.dir/STL_deque.cpp.obj
+.PHONY : STL_deque.cpp.obj
 
-STL_priority_queue.i: STL_priority_queue.cpp.i
+STL_deque.i: STL_deque.cpp.i
 
-.PHONY : STL_priority_queue.i
+.PHONY : STL_deque.i
 
 # target to preprocess a source file
-STL_priority_queue.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_priority_queue.dir\build.make CMakeFiles/STL_priority_queue.dir/STL_priority_queue.cpp.i
-.PHONY : STL_priority_queue.cpp.i
+STL_deque.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_deque.dir\build.make CMakeFiles/STL_deque.dir/STL_deque.cpp.i
+.PHONY : STL_deque.cpp.i
 
-STL_priority_queue.s: STL_priority_queue.cpp.s
+STL_deque.s: STL_deque.cpp.s
 
-.PHONY : STL_priority_queue.s
+.PHONY : STL_deque.s
 
 # target to generate assembly for a file
-STL_priority_queue.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_priority_queue.dir\build.make CMakeFiles/STL_priority_queue.dir/STL_priority_queue.cpp.s
-.PHONY : STL_priority_queue.cpp.s
+STL_deque.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_deque.dir\build.make CMakeFiles/STL_deque.dir/STL_deque.cpp.s
+.PHONY : STL_deque.cpp.s
 
 # Help Target
 help:
@@ -177,10 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... STL_priority_queue
-	@echo ... STL_priority_queue.obj
-	@echo ... STL_priority_queue.i
-	@echo ... STL_priority_queue.s
+	@echo ... STL_deque
+	@echo ... STL_deque.obj
+	@echo ... STL_deque.i
+	@echo ... STL_deque.s
 .PHONY : help
 
 
