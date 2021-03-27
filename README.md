@@ -121,4 +121,4 @@ There are 4 main components to STL
 - [Reference 1](http://www.cplusplus.com/doc/tutorial/)
 - [Reference for Override](https://www.geeksforgeeks.org/override-keyword-c/)
 - [Reference for STL](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/)
-
+- [Heap vs Stack](https://www.guru99.com/stack-vs-heap.html)

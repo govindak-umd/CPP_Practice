@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(STL_deque STL_deque.cpp)
+add_executable(STL_list STL_list.cpp)

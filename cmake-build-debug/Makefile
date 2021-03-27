@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named STL_deque
+# Target rules for targets named STL_list
 
 # Build rule for target.
-STL_deque: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 STL_deque
-.PHONY : STL_deque
+STL_list: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 STL_list
+.PHONY : STL_list
 
 # fast build rule for target.
-STL_deque/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_deque.dir\build.make CMakeFiles/STL_deque.dir/build
-.PHONY : STL_deque/fast
+STL_list/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_list.dir\build.make CMakeFiles/STL_list.dir/build
+.PHONY : STL_list/fast
 
-STL_deque.obj: STL_deque.cpp.obj
+STL_list.obj: STL_list.cpp.obj
 
-.PHONY : STL_deque.obj
+.PHONY : STL_list.obj
 
 # target to build an object file
-STL_deque.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_deque.dir\build.make CMakeFiles/STL_deque.dir/STL_deque.cpp.obj
-.PHONY : STL_deque.cpp.obj
+STL_list.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_list.dir\build.make CMakeFiles/STL_list.dir/STL_list.cpp.obj
+.PHONY : STL_list.cpp.obj
 
-STL_deque.i: STL_deque.cpp.i
+STL_list.i: STL_list.cpp.i
 
-.PHONY : STL_deque.i
+.PHONY : STL_list.i
 
 # target to preprocess a source file
-STL_deque.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_deque.dir\build.make CMakeFiles/STL_deque.dir/STL_deque.cpp.i
-.PHONY : STL_deque.cpp.i
+STL_list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_list.dir\build.make CMakeFiles/STL_list.dir/STL_list.cpp.i
+.PHONY : STL_list.cpp.i
 
-STL_deque.s: STL_deque.cpp.s
+STL_list.s: STL_list.cpp.s
 
-.PHONY : STL_deque.s
+.PHONY : STL_list.s
 
 # target to generate assembly for a file
-STL_deque.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_deque.dir\build.make CMakeFiles/STL_deque.dir/STL_deque.cpp.s
-.PHONY : STL_deque.cpp.s
+STL_list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_list.dir\build.make CMakeFiles/STL_list.dir/STL_list.cpp.s
+.PHONY : STL_list.cpp.s
 
 # Help Target
 help:
@@ -177,10 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... STL_deque
-	@echo ... STL_deque.obj
-	@echo ... STL_deque.i
-	@echo ... STL_deque.s
+	@echo ... STL_list
+	@echo ... STL_list.obj
+	@echo ... STL_list.i
+	@echo ... STL_list.s
 .PHONY : help
 
 
